@@ -5,7 +5,7 @@ export default function WorkExperience() {
     {
       company: "Munshot",
       initial: "M",
-      gradient: "from-green-500 to-emerald-600",
+      iconClass: "work-icon-green",
       period: "August 2025 - September 2025",
       role: "Artificial Intelligence Intern",
       responsibilities: [
@@ -18,7 +18,7 @@ export default function WorkExperience() {
     {
       company: "Computer Market Hub",
       initial: "C",
-      gradient: "from-orange-500 to-red-600",
+      iconClass: "work-icon-orange",
       period: "August 2024 - December 2024",
       role: "Artificial Intelligence Intern",
       responsibilities: [
@@ -31,22 +31,22 @@ export default function WorkExperience() {
   ];
 
   return (
-    <section id="work" className="py-20 px-6 bg-gray-950">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12">Work Experience</h2>
+    <section id="work" className="section section-dark">
+      <div className="section-container">
+        <h2 className="section-title">Work Experience</h2>
         
-        <div className="space-y-12">
+        <div className="work-list">
           {experiences.map((exp, idx) => (
-            <div key={idx} className="border border-gray-800 rounded-lg p-6 hover:border-gray-700 transition-colors">
-              <div className="flex items-start gap-4">
-                <div className={`w-12 h-12 bg-gradient-to-br ${exp.gradient} rounded-lg flex items-center justify-center text-xl font-bold flex-shrink-0`}>
+            <div key={idx} className="work-card">
+              <div className="work-header">
+                <div className={`work-icon ${exp.iconClass}`}>
                   {exp.initial}
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-1">{exp.company}</h3>
-                  <p className="text-gray-400 mb-2">{exp.period}</p>
-                  <p className="text-blue-400 mb-4">{exp.role}</p>
-                  <ul className="space-y-2 text-gray-300">
+                <div className="work-content">
+                  <h3 className="work-company">{exp.company}</h3>
+                  <p className="work-period">{exp.period}</p>
+                  <p className="work-role">{exp.role}</p>
+                  <ul className="work-responsibilities">
                     {exp.responsibilities.map((resp, ridx) => (
                       <li key={ridx}>• {resp}</li>
                     ))}

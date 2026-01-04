@@ -43,32 +43,30 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-gray-950">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4">My Projects</h2>
-        <p className="text-gray-400 mb-12">Check out my latest work</p>
+    <section id="projects" className="section section-dark">
+      <div className="section-container">
+        <h2 className="section-title">My Projects</h2>
+        <p className="section-subtitle">Check out my latest work</p>
         
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="projects-grid">
           {projects.map((project, idx) => (
-            <div key={idx} className="border border-gray-800 rounded-lg p-6 hover:border-gray-700 transition-all hover:shadow-lg hover:shadow-blue-500/10">
-              <h3 className="text-xl font-bold mb-3">{project.title}</h3>
-              <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
-              <div className="flex flex-wrap gap-2 mb-4">
+            <div key={idx} className="project-card">
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
+              <div className="project-tags">
                 {project.tags.map((tag, tidx) => (
-                  <span key={tidx} className="px-3 py-1 bg-gray-900 text-xs rounded-full">
-                    {tag}
-                  </span>
+                  <span key={tidx} className="project-tag">{tag}</span>
                 ))}
               </div>
-              <div className="flex gap-4">
+              <div className="project-links">
                 {project.website && (
-                  <a href={project.website} className="text-blue-400 hover:underline text-sm">Website</a>
+                  <a href={project.website} className="project-link">Website</a>
                 )}
                 {project.source && (
-                  <a href={project.source} className="text-blue-400 hover:underline text-sm">Source</a>
+                  <a href={project.source} className="project-link">Source</a>
                 )}
                 {project.paper && (
-                  <a href={project.paper} className="text-blue-400 hover:underline text-sm">Paper</a>
+                  <a href={project.paper} className="project-link">Paper</a>
                 )}
               </div>
             </div>
