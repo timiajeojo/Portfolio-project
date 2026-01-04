@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+export default function About() {
   return (
     <section id="about" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
@@ -13,6 +13,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}

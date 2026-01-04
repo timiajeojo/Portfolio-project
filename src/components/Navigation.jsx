@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Navigation = () => {
- return (
+export default function Navigation() {
+  return (
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-gray-800 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-xl font-bold">Samiksha Shukla</div>
@@ -13,7 +13,5 @@ const Navigation = () => {
         </div>
       </div>
     </nav>
- );
+  );
 }
-
-export default Navigation;

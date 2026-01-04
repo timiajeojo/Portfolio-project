@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Hero = () => {
- return (
+export default function Hero() {
+  return (
     <section className="pt-32 pb-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
@@ -13,7 +13,5 @@ const Hero = () => {
         </div>
       </div>
     </section>
- )
-} 
-
-export default Hero;
+  );
+}
