@@ -66,6 +66,14 @@ body.light-mode .footer-container {
   color: #6b7280;
 }
 
+body.light-mode .hero-resume-button {
+  background-color: #2563eb;
+}
+
+body.light-mode .hero-resume-button:hover {
+  background-color: #1d4ed8;
+}
+
 body.light-mode .about-text,
 body.light-mode .work-responsibilities,
 body.light-mode .project-description,
@@ -176,17 +184,28 @@ body.light-mode .footer {
 .hero-subtitle {
   font-size: 1.5rem;
   color: #9ca3af;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.hero-email {
-  color: #60a5fa;
+.hero-resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
   text-decoration: none;
-  font-size: 1.125rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
 }
 
-.hero-email:hover {
-  text-decoration: underline;
+.hero-resume-button:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-resume-button svg {
+  flex-shrink: 0;
 }
 
 .hero-avatar {
