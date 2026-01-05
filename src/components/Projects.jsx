@@ -34,7 +34,7 @@ export default function Projects() {
       title: "Aiba Personal Finance & Expense Tracking App",
       description: "A modern fintech mobile application designed to help users track income, monitor expenses, and visualize spending patterns in real time. The app provides a clean, intuitive interface that makes financial management simple, transparent, and actionable",
       tags: ["React", "Typescript", "Tailwind CSS", "Recharts", "Framer Motion"],
-      paper: ""
+      paper: "www"
     },
     {
       title: "Tiny Recursive Model",
