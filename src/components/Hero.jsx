@@ -5,15 +5,15 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm Samiksha</h1>
-          <p className="hero-subtitle">Building intelligent AI agents that remember and reason.</p>
+          <h1 className="hero-title">Hi, I'm Timi</h1>
+          <p className="hero-subtitle">Building Fullstack Website that function</p>
           <a href="/resume.pdf" download className="hero-resume-button">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
               <polyline points="7 10 12 15 17 10"/>
               <line x1="12" y1="15" x2="12" y2="3"/>
             </svg>
-            Download Resume
+            Resume
           </a>
         </div>
       </div>
