@@ -5,29 +5,28 @@ export default function WorkExperience() {
 
   const experiences = [
     {
-      company: "Munshot",
-      initial: "M",
+      company: "Thrif Africa",
+      initial: "TA",
       iconClass: "work-icon-green",
-      period: "August 2025 - September 2025",
-      role: "Artificial Intelligence Intern",
+      period: "February 2023 -July 2023",
+      role: "Frontend Developer Intern",
       responsibilities: [
-        "Developed an AI agent for Singapore-based financial services client",
-        "Worked with multi-agent AI workflows for context-sharing and coordination",
-        "Designed prompting logic including system prompts for task execution",
-        "Tested, debugged, and refined agent performance"
+        `Contributed to the development of responsive web pages utilizing Nextjs, TailwindCSS, and wordpress, resulting in a measured 30 % reduction in page load time.
+         Implemented over 20 reusable React components, significantly decreasing development time by an estimated 20 % .
+         Shipped 3 + new features, enhancing platform experience.
+         Enhanced collaboration with structured pull requests and clear documentation.`
       ]
     },
     {
-      company: "Computer Market Hub",
+      company: "Crikle Labs",
       initial: "C",
       iconClass: "work-icon-orange",
-      period: "August 2024 - December 2024",
-      role: "Artificial Intelligence Intern",
+      period: "July 2023 - January 2024",
+      role: "Frontend Developer Intern",
       responsibilities: [
-        "Spearheaded Jess chatbot for Jessup Cellars, achieving 78% user satisfaction",
-        "Orchestrated data pipelines processing 2K+ daily data points, improving model performance by 40%",
-        "Architected AI sentiment analysis system processing 5K+ Hebrew posts with 87% accuracy",
-        "Delivered 3 specialized AI agents, reducing manual processing time by 35%"
+        `Delivered pixel - perfect implementations using Nextjs and Tailwind, collaborating with designers to ensure visual consistency..
+         Optimized application performance using memoization, lazy loading, and asset optimization techniques that improved load times by 35 % .
+         Contributed to team projects using Git / GitHub, participated in PR reviews, resolved Jira tickets efficiently, and managed site deployments.`
       ]
     }
   ];
