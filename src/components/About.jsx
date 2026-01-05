@@ -6,9 +6,7 @@ export default function About() {
       <div className="section-container">
         <h2 className="section-title">About</h2>
         <p className="about-text">
-          AI/ML Engineer passionate about building intelligent systems. Currently working on multi-agent workflows and building{' '}
-          <a href="https://github.com/samiksha0shukla/context-memory" className="about-link">ContextMemory</a>, 
-          a memory system for AI applications. I specialise in Machine Learning, Deep Learning, NLP, and backend development with Python and FastAPI.
+          I'm an enthusiastic full-stack developer with over 2 years of hands on experience in crafting engaging web experiences. Always eager to explore and apply new technologies, I'm ready to dive into whatever tools get the job done. I'm seeking an opportunity to contribute my creativity and growing skills to a collaborative team, helping to build impactful websites that make a difference{' '}
         </p>
       </div>
     </section>
