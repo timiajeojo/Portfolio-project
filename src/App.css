@@ -175,6 +175,7 @@ body.light-mode .footer {
 /* Hero Section */
 .hero {
   padding: 5rem 1.5rem;
+  text-align: center;
 }
 
 .hero-container {
@@ -184,6 +185,9 @@ body.light-mode .footer {
 
 .hero-content {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
@@ -234,6 +238,7 @@ body.light-mode .footer {
 /* Section Base */
 .section {
   padding: 5rem 1.5rem;
+  text-align: center;
 }
 
 .section-dark {
@@ -261,6 +266,8 @@ body.light-mode .footer {
   color: #d1d5db;
   font-size: 1.125rem;
   line-height: 1.75;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-link {
@@ -371,6 +378,7 @@ body.light-mode .footer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+  justify-content: center;
 }
 
 .skill-tag {
@@ -470,6 +478,9 @@ body.light-mode .footer {
 .contact-text {
   color: #d1d5db;
   margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-buttons {
