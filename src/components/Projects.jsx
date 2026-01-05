@@ -31,10 +31,10 @@ export default function Projects() {
       source: "https://github.com/timiajeojo/"
     },
     {
-      title: "Transformers Research",
-      description: "Deep dive into 'Attention Is All You Need' paper. Implementing transformer architecture from scratch, studying self-attention mechanisms and positional encodings.",
-      tags: ["PyTorch", "Transformers", "Self-Attention", "NLP", "Deep Learning", "Research"],
-      paper: "https://arxiv.org/pdf/1706.03762"
+      title: "Aiba Personal Finance & Expense Tracking App",
+      description: "A modern fintech mobile application designed to help users track income, monitor expenses, and visualize spending patterns in real time. The app provides a clean, intuitive interface that makes financial management simple, transparent, and actionable",
+      tags: ["React", "Typescript", "Tailwind CSS", "Recharts", "Framer Motion"],
+      soon: ""
     },
     {
       title: "Tiny Recursive Model",
