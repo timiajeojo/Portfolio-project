@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="nav">
       <div className="nav-container">
-        <div className="nav-brand">Samiksha Shukla</div>
+        <div className="nav-brand">Timi Ajeojo</div>
         <div className="nav-links">
           <a href="#about" className="nav-link">About</a>
           <a href="#work" className="nav-link">Work</a>
