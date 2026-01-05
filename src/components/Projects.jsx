@@ -3,28 +3,28 @@ import React from 'react';
 export default function Projects() {
   const projects = [
     {
-      title: "ContextMemory",
-      description: "A memory system for AI apps that remembers context across conversations. Extracts and stores facts, uses semantic search for retrieval, handles deduplication intelligently.",
+      title: "Segment",
+      description: "Segment is a platform I designed to connect people through books. The concept was born from recognizing the need for accessible literature in communities and creating a system where book owners could easily share their collections with eager readers.",
       tags: ["Python", "OpenAI", "PostgreSQL", "Semantic Search", "Vector Database", "RAG", "Graph DB", "PyPI"],
       website: "https://pypi.org/project/contextmemory/",
       source: "https://github.com/samiksha0shukla/context-memory"
     },
     {
-      title: "AIxAI",
-      description: "MCP-powered system that generates Pydantic AI agents using multi-agent LangGraph workflows. Crawls and chunks docs, stores in Supabase with OpenAI embeddings.",
+      title: "Wecare Health Management System",
+      description: "Wecare is a healthcare management system built to simplify appointment scheduling and patient record tracking. It provides a user-friendly interface for both patients and healthcare providers, ensuring seamless communication and efficient care delivery.",
       tags: ["Agentic AI", "MultiAgent Workflow", "Pydantic AI", "LangGraph", "Supabase", "Agentic RAG", "MCP", "Python"],
       website: "https://aixai-mkfm.onrender.com/",
       source: "https://github.com/samiksha0shukla/AIxAI"
     },
     {
-      title: "HomeSage",
-      description: "Smart companion for real estate price prediction and analytics. Leverages ML for accurate predictions and personalized property recommendations.",
+      title: "QR Tool",
+      description: "A simple yet powerful tool for generating custom QR codes instantly. You can add links or text, choose colors, and download your QR in high quality. It’s fast, lightweight, and perfect for personal or business use. Built with a clean design optimized for mobile and desktop users.",
       tags: ["Python", "Machine Learning", "Data Analytics", "Data Visualization", "Data Engineering", "Feature Engineering", "EDA", "Prediction Models"],
       source: "https://github.com/samiksha0shukla/HomeSage"
     },
     {
-      title: "n8n",
-      description: "Visual workflow automation platform built with React and FastAPI. Design, connect, and automate workflows in real time with a drag-and-drop interface.",
+      title: "Chat with PDF",
+      description: "A web app that lets you upload any PDF and chat directly with its contents. It uses AI to read and understand the document, giving accurate, context-based answers. Perfect for summarizing long files or finding key details quickly.",
       tags: ["React", "FastAPI", "Pydantic", "SQLAlchemy", "Python", "Workflow Automation", "Real-time"],
       source: "https://github.com/samiksha0shukla/n8n"
     },
