@@ -4,7 +4,7 @@ export default function Skills() {
   const skills = [
     "HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS",
     "NextJS", "Git", "Github", "ExpressJS", "NodeJS", "Figma",
-    "TypeScript", "SQL Databases", ""
+    "TypeScript", "SQL Databases",
   ];
   
   return (
