@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Skills() {
   const skills = [
-    "Machine Learning", "Deep Learning", "PyTorch", "Agentic AI", "Multi-agent Workflows",
-    "Langchain", "LangGraph", "Pydantic AI", "LangSmith", "Giskard", "RAGs",
-    "Memory Systems", "FastAPI", "SQLAlchemy", "Pydantic", "Streamlit"
+    "HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS",
+    "NextJS", "Git", "Github", "ExpressJS", "NodeJS", "Figma",
+    "TypeScript", "SQL Databases", "MongoDB"
   ];
   
   return (
