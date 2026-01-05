@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function WorkExperience() {
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
   const experiences = [
     {
       company: "Munshot",
@@ -30,6 +32,10 @@ export default function WorkExperience() {
     }
   ];
 
+  const toggleExpand = (index) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
     <section id="work" className="section section-dark">
       <div className="section-container">
@@ -38,7 +44,10 @@ export default function WorkExperience() {
         <div className="work-list">
           {experiences.map((exp, idx) => (
             <div key={idx} className="work-card">
-              <div className="work-header">
+              <div 
+                className="work-header work-header-clickable" 
+                onClick={() => toggleExpand(idx)}
+              >
                 <div className={`work-icon ${exp.iconClass}`}>
                   {exp.initial}
                 </div>
@@ -46,13 +55,18 @@ export default function WorkExperience() {
                   <h3 className="work-company">{exp.company}</h3>
                   <p className="work-period">{exp.period}</p>
                   <p className="work-role">{exp.role}</p>
-                  <ul className="work-responsibilities">
-                    {exp.responsibilities.map((resp, ridx) => (
-                      <li key={ridx}>• {resp}</li>
-                    ))}
-                  </ul>
+                </div>
+                <div className={`work-chevron ${expandedIndex === idx ? 'work-chevron-expanded' : ''}`}>
+                  ▼
                 </div>
               </div>
+              {expandedIndex === idx && (
+                <ul className="work-responsibilities">
+                  {exp.responsibilities.map((resp, ridx) => (
+                    <li key={ridx}>• {resp}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           ))}
         </div>

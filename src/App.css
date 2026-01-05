@@ -172,6 +172,26 @@ body {
   gap: 1rem;
 }
 
+.work-header-clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.work-header-clickable:hover {
+  opacity: 0.8;
+}
+
+.work-chevron {
+  margin-left: auto;
+  transition: transform 0.3s;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.work-chevron-expanded {
+  transform: rotate(180deg);
+}
+
 .work-icon {
   width: 3rem;
   height: 3rem;
@@ -218,6 +238,8 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   color: #d1d5db;
+  margin-top: 1rem;
+  padding-left: 4rem;
 }
 
 /* Skills */
