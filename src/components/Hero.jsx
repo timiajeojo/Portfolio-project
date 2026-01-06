@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero-content">
           <h1 className="hero-title">Hi, I'm Timi</h1>
           <p className="hero-subtitle">Building Fullstack Website that function</p>
-          <a href="/resume.pdf" download className="hero-resume-button">
+          <a href="/resumeoct.pdf" download className="hero-resume-button">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
               <polyline points="7 10 12 15 17 10"/>
